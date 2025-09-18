@@ -1,0 +1,11 @@
+[package]
+name = "monkeycfmt"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tree-sitter = "0.25.9"
+tree-sitter-monkeyc = "0.1.0"
+
+[build-dependencies]
+cc = "1.2.37"
