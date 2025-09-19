@@ -1,0 +1,3 @@
+[submodule "tree-sitter-monkeyc"]
+	path = tree-sitter-monkeyc
+	url = git@github.com:liinyun/tree-sitter-monkeyc.git
