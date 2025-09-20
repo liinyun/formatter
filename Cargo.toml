@@ -1,2 +1,3 @@
 [workspace]
 members = ["monkeycfmt","tree-sitter-monkeyc"]
+resolver = "3"
