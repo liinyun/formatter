@@ -1,5 +1,4 @@
 use tree_sitter::Parser;
-
 use std::fs::File;
 
 fn main() {
@@ -18,8 +17,4 @@ function init(a,b) {
     let file = File::create("tree.txt").expect("Failing to create file");
     // let file = File::create("tee.dot");
     tree.print_dot_graph(&file);
-
-    // let root_node = tree.root_node();
-    // let tree_string = root_node.to_string();
-    // println!("{}", tree_string);
 }
